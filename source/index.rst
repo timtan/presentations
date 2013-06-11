@@ -1,8 +1,3 @@
-.. django-book documentation master file, created by
-   sphinx-quickstart on Mon May 27 14:22:40 2013.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 ===================
 Django Book Intro !
 ===================
@@ -19,7 +14,7 @@ Logo
 
 
 CGI
-----
+---
 .. image:: cgi.png
    :width: 100%
 
@@ -68,7 +63,7 @@ At Least Four FIles
 - template as html
 
 models.py (the database tables)
-------------------------------
+-------------------------------
 
 .. code-block:: python  
 
@@ -91,7 +86,7 @@ views.py (business logic)
 	    return render_to_response('latest_books.html', {'book_list': book_list})
 
 urls.py (the URL configuration)
-----------
+-------------------------------
 
 .. code-block:: python
 
@@ -104,7 +99,7 @@ urls.py (the URL configuration)
 
 
 template
-------
+--------
 
 .. code-block:: html
 
@@ -122,7 +117,7 @@ template
 
 
 Who Makes It?
-------------------
+--------------
 
 - Lawrence Journal-World
 - Founded 1858
@@ -137,14 +132,14 @@ Named After Django
 
 
 Pros!
-------------------
+-----
 
 - Real world framwork from a news company!
 
 
 
 Required Skill?
-------------------
+----------------
 
 - Web knowledge 
 - Django is a collection of python library

@@ -183,10 +183,6 @@ pseudoxml:
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
 
-liveslide: slide
-	    livereload -b $(BUILDDIR)/slides
 	    
 livehtml: html
 	    livereload -b $(BUILDDIR)/html
-liveslide: slide
-	    livereload -b $(BUILDDIR)/slides
